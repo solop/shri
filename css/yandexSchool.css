@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    background: #EFEFEF;
+    color: #666666;
+    padding: 0;
+}
+
+#ja-wrapper1 {
+    clear: both;
+    margin: 0 auto;
+    width: 940px;
+}
+
+#ja-wrapper2 {
+    background: url(../image/shadow-left.gif) repeat-y top left;
+    padding-left: 15px;
+}
+
+#ja-wrapper3 {
+    background: url(../image/shadow-right.gif) repeat-y top right;
+    padding-right: 15px; /*height: 100%;*/
+}
+
+#ja-wrapper4 {
+    background: #FFFFFF;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+#content {
+
+}
+
+.tabs {
+    clear: both;
+    margin: 5px; /*width: 690px;*/
+    height: 30px;
+    background: inherit;
+    border-bottom: 1px solid lightgray;
+    text-align: left;
+}
+
+.tabs table {
+    position: relative;
+    bottom: -3px;
+    float: left;
+}
+
+.tabs .printLabel {
+    float: right;
+    text-align: right;
+    padding-right: 10px;
+}
+
+.tabs .between {
+    width: 7px;
+}
+
+.tabs td {
+    vertical-align: middle;
+}
+
+.tabs td span {
+    display: block;
+    margin-top: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.tabs .selected {
+    background: url("../image/active_bg.gif") repeat-x;
+    cursor: pointer;
+}
+
+.tabs .unselected {
+    background: url("../image/inactive_bg.gif") repeat-x;
+    cursor: pointer;
+}
+
+#header {
+    margin-left: -5px;
+    margin-right: -5px;
+    background: #ebe9e9;
+    height: 101px;
+}
+
+#header #logo {
+    margin: 10px;
+    float: right;
+}
+
+#header h1 {
+    padding: 20px;
+    color: rgb(255, 0, 0);
+    float: left;
+    width: 700px;
+    font: 155% Verdana, sans-serif;
+    text-shadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9, 0 5px 0 #aaa, 0 6px 1px rgba(0, 0, 0, .1), 0 0 5px rgba(0, 0, 0, .1), 0 1px 3px rgba(0, 0, 0, .3), 0 3px 5px rgba(0, 0, 0, .2), 0 5px 10px rgba(0, 0, 0, .25), 0 10px 10px rgba(0, 0, 0, .2), 0 20px 20px rgba(0, 0, 0, .15);
+
+}
+
+#body {
+
+}
+
+#baseInfo, #development, #statementOfWork, #bash #python #perl {
+    padding: 15px;
+}
+
+.query {
+    padding: 5px;
+    padding-left: 25px;
+}
+
+.query h3 {
+    cursor: pointer;
+    font-style: normal;
+    font: 90% Verdana, sans-serif;
+
+}
+
+.query h3:hover {
+    color: red;
+}
+
+.hideAnswerIcon {
+    background: url("../image/plus-icon.png") no-repeat;
+}
+
+.showAnswerIcon {
+    background: url("../image/minus-icon.png") no-repeat;
+}
+
+.answer {
+    border: 1px #d3d3d3 dashed;
+    padding: 5px;
+    display: none;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 5px;
+    -khtml-border-radius: 10px;
+    background: #fffefe;
+}
+
+.answer span {
+    font: 80% Verdana, sans-serif;
+    color: black;
+}
+
+#python, #perl, #development,#statementOfWork  {
+    display: none;
+}
+
+#footer {
+    border-top: 1px #d3d3d3 solid;
+    height: 70px;
+    text-align: right;
+    padding-top: 10px;
+    padding-right: 30px;
+}
+
+#footer span {
+    color: #808080;
+}
+

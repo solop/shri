@@ -1,0 +1,636 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+    <title>Анкета Школы разработки интерфейсов</title>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+    <meta http-equiv="pragma" content="no-cache">
+    <link href="../css/yandexSchool.css" rel="stylesheet" media="screen" type="text/css"/>
+    <link rel="stylesheet" type="text/css" media="print" href="../css/yandexSchoolPrint.css"/>
+    <script type="text/javascript" src="../js/lib/jquery-1.7.js"></script>
+    <script type="text/javascript" src="../js/yandexSchool.js"></script>
+</head>
+<body>
+<div id="ja-wrapper1">
+<div id="ja-wrapper2">
+<div id="ja-wrapper3">
+<div id="ja-wrapper4">
+<div id="content">
+<div id="header">
+    <h1>Анкета Школы разработки интерфейсов</h1>
+    <img id="logo" src="../image/yandex.png"/>
+
+    <div class="tabs">
+        <table cellpadding="0" cellspacing="0">
+            <tr>
+                <td class="between"></td>
+                <td><img id="v1_l" src="../image/active_left.gif"/></td>
+                <td class="selected" onclick="v_1()">
+                    <span>Общие вопросы</span>
+                </td>
+                <td><img id="v1_r" src="../image/active_right.gif"/></td>
+                <td class="between"></td>
+                <td><img id="v2_l" src="../image/inactive_left.gif"/></td>
+                <td class="unselected" onclick="v_2()">
+                    <span>Опыт разработки</span>
+                </td>
+                <td style="margin-left:10px;"><img id="v2_r" src="../image/inactive_right.gif"/></td>
+                <td class="between"></td>
+                <td><img id="v3_l" src="../image/inactive_left.gif"/></td>
+                <td class="unselected" onclick="v_3()">
+                    <span>Технические вопросы</span>
+                </td>
+                <td style="margin-left:10px;"><img id="v3_r" src="../image/inactive_right.gif"/></td>
+            </tr>
+        </table>
+        <div class="printLabel"><a href="#" onclick="window.print();">Печать страницы</a></div>
+        <div style="clear: both;"></div>
+    </div>
+</div>
+<div id="body">
+<div id="baseInfo">
+    <div class="query hideAnswerIcon">
+        <h3>Фамилия, имя, отчество</h3>
+
+        <div class="answer">
+            <span>Черных Евгений Александрович</span>
+        </div>
+    </div>
+    <div class="query hideAnswerIcon">
+        <h3>Е-mail</h3>
+
+        <div class="answer">
+            <span>EAChernyh@yandex.ru</span>
+        </div>
+    </div>
+    <div class="query hideAnswerIcon">
+        <h3>Телефон</h3>
+
+        <div class="answer">
+            <span>89267809398</span>
+        </div>
+    </div>
+    <div class="query hideAnswerIcon">
+        <h3>Год рождения</h3>
+
+        <div class="answer">
+            <span>27.12.1986</span>
+        </div>
+    </div>
+    <div class="query hideAnswerIcon">
+        <h3>Город, в котором живёте</h3>
+
+        <div class="answer">
+            <span>Москва</span>
+        </div>
+    </div>
+    <div class="query hideAnswerIcon">
+        <h3>Вуз, факультет, специальность, кафедра</h3>
+
+        <div class="answer">
+                                    <span>
+МГУПС (МИИТ).<br>
+Кафедра - Математическое обеспечение автоматизированных систем управления (МО АСУ).<br>
+Специальность - инженер-программист.<br>
+В настоящее время обучаюсь в аспирантуре по специальности "Теоретические основы информатики" (МИИТ, кафедра МО АСУ).
+                                    </span>
+        </div>
+    </div>
+    <div class="query hideAnswerIcon">
+        <h3>Год окончания вуза</h3>
+
+        <div class="answer">
+            <span>2010</span>
+        </div>
+    </div>
+    <div class="query hideAnswerIcon">
+        <h3>На каком уровне владеете английским языком?</h3>
+
+        <div class="answer">
+            <span>Чтение технической литературы</span>
+        </div>
+    </div>
+    <div class="query hideAnswerIcon">
+        <h3>Чего вы ожидаете от участия в Школе?</h3>
+
+        <div class="answer">
+                                    <span>
+Получить навыки и опыт в разработке интерфейсов.<br>
+Выработать подходы профессионального проектирования, тестирования и отладки продуктов.<br>
+Продолжить стажировку, а еще лучше работу в Яндексе.
+                                    </span>
+        </div>
+    </div>
+    <div class="query hideAnswerIcon">
+        <h3>Откуда вы о нас узнали?</h3>
+
+        <div class="answer">
+            <span>Интернет</span>
+        </div>
+    </div>
+    <div class="query hideAnswerIcon">
+        <h3>Сколько времени вы были бы готовы уделять стажировке или работе в Яндексе? </h3>
+
+        <div class="answer">
+            <span>Стажировке порядка 20 часов, работе - не менее 40 часов в неделю.</span>
+        </div>
+    </div>
+</div>
+<div id="development">
+    <div class="query hideAnswerIcon">
+        <h3>Расскажите нам о вашем опыте разработки. Ничего не упускайте: это может быть как
+            серьезный интерфейс, так и просто домашняя страничка.</h3>
+
+        <div class="answer">
+                                    <span>
+С 2009 года занимаюсь разработкой корпоративных системы для ОАО "РЖД".
+В основном это системы отчетности и интеграции.
+Интерфейс систем, хотя и весьма аскетичен, обладает интерактивом, выполненным на JS (jQuery),
+для большинства коммуникаций с серверной частью применяется AJAX.
+                                    </span>
+        </div>
+    </div>
+    <div class="query hideAnswerIcon">
+        <h3>Какие языки программирования, фреймворки и технологии вы использовали? Сложились ли
+            у вас личные предпочтения?</h3>
+
+        <div class="answer">
+                                    <span>
+Имел опыт работы с языками программирования: Pascal, Delphi, Java, С++, C#, Ruby, SQL, JS.<br>
+В настоящее время при разработке серверной части активно использую связку: Java + Spring + Hibernate или Ruby + Ruby on Rails.<br>
+Клиентская часть: html, css, xml+xslt. В последнее время при разработке корпоративных решений применяю технологии Vaadin и GWT,в первую очередь для ускорения разработки.
+При сборки проектов используюсь Ant, но в перспективе хочу перейти на Maven.<br>
+При разработки Web решений для "легковесных" приложений использую сервер приложений Aphach TomCat, для тяжелых "IBM WebSphere", реже GlassFish.<br>
+В своей работе использую СУБД MySQL или DB2 в зависимости от специфики разрабатываемой системы, большие объемы данных - DB2.
+
+                                    </span>
+        </div>
+    </div>
+    <div class="query hideAnswerIcon">
+        <h3>Какие редакторы и среды разработки вы использовали? Чем обычно пользуетесь?</h3>
+
+        <div class="answer">
+            <span>
+                Использую Intellij IDEA, NetBeans, Eclipse при разработки программ на Java или Ruby. Предпочитаю Intellij IDEA.<br>
+                В качестве SQL менеджера баз данных IBM Data Studio, HeidiSQL.<br>
+                Для быстрой правки использую редакторы NotePad и NotePad++.
+            </span>
+        </div>
+    </div>
+    <div class="query hideAnswerIcon">
+        <h3>С какими ОС приходилось сталкиваться? Для каких целей вы их использовали?</h3>
+
+        <div class="answer">
+                                    <span>
+                                        Win (WM,98,Me,Xp,7),Mac Os - использую в повседневной жизни.<br>
+                                        UNIX подобные и Win Server - использую на работе, как серверная платформа.
+                                    </span>
+        </div>
+    </div>
+    <div class="query hideAnswerIcon">
+        <h3>Приходилось ли вам пользоваться системами контроля версий? Если да, то какими? Какая
+            из них вам нравится больше всего?</h3>
+
+        <div class="answer">
+                            <span>
+                                Subversion - использую на работе.<br>
+
+                                Git - для анкеты.
+                            </span>
+        </div>
+    </div>
+    <div class="query hideAnswerIcon">
+        <h3>Использовали ли вы системы постановки и ведения задач?</h3>
+
+        <div class="answer">
+            <span>Microsoft Project, Bugzilla, Mantis, Jira,Basecamp.com</span>
+        </div>
+    </div>
+    <div class="query hideAnswerIcon">
+        <h3>Какие полезные для фронтенд-разработчика ресурсы вы используете и можете
+            посоветовать?</h3>
+
+        <div class="answer">
+                            <span>
+                                <a href="http://css-tricks.com">http://css-tricks.com/</a><br>
+                                <a href="http://habrahabr.ru">http://habrahabr.ru</a><br>
+                                <a href="http://htmlbook.ru">http://htmlbook.ru</a><br>
+                                <a href="https://vaadin.com">https://vaadin.com</a>
+                            </span>
+        </div>
+    </div>
+    <div class="query hideAnswerIcon">
+        <h3>Работали ли вы где-нибудь? Какие у вас были должностные обязанности? Есть ли опыт
+            работы в команде?</h3>
+
+        <div class="answer">
+                            <span>
+С 2009 года работаю в ГВЦ ОАО "РЖД" по специальности программист.<br>
+Разработка и проектирование корпоративных систем отчетности и интеграции.<br>
+Имею опыт работы в команде из 3-5 человек, иногда выступаю в роли ведущего программиста.
+
+                            </span>
+        </div>
+    </div>
+</div>
+<div id="statementOfWork">
+<div class="query hideAnswerIcon">
+    <h3>Перечислите известные вам инструменты и приёмы для отладки кода в разных браузерах</h3>
+
+    <div class="answer">
+               <span>
+                    FireBuga<br>
+                    Инструменты разработчика  в IE, FireFox, Chrome<br>
+                    Web Inspector в Safari
+               </span>
+    </div>
+</div>
+<div class="query hideAnswerIcon">
+    <h3>Опишите своими словами, что происходит в браузерах при клике на ссылку yandex.ru (полнота ответа – на ваше
+        усмотрение)</h3>
+
+    <div class="answer">
+               <span>
+                   1)	При клике по ссылке yandex.ru срабатывает событие onclick, вызывается  обработчик; <br>
+                   2)	Обработчик получает URL  (хост + параметры) , способ получения URL зависит от реализации;  <br>
+                   3)	Формируется HTTP запрос; <br>
+                   4)	Устанавливается соединение с WEB  - сервером;   <br>
+                   5)	Посылается запрос;  <br>
+                   6)	Получение ответа;  <br>
+                   7)	Парсинг ответа;  <br>
+
+               </span>
+    </div>
+</div>
+<div class="query hideAnswerIcon">
+    <h3>Предположим, что мы представляем автосалон по продаже японских и немецких автомобилей. У нас есть базовые
+        классы и примеры их использования. Допишите недостающий код.</h3>
+
+    <div class="answer">
+               <span>
+                   <pre>
+/**
+     * Создает экземпляр Машины
+     * @this {Car}
+     * @param {string} manufacturer Производитель
+     * @param {string} model Модель
+     * @param {number} year Год производство
+     */
+    function Car(manufacturer, model, year) {
+        this.manufacturer = manufacturer;
+        this.model = model;
+        if (year == null) {
+            this.year = new Date().getFullYear();
+        } else {
+            this.year = year;
+        }
+    }
+
+    Car.prototype.getInfo = function () {
+        return this.manufacturer + ' ' + this.model + ' ' + this.year;
+    };
+    Car.prototype.getDetailedInfo = function () {
+        return 'Производитель: ' + this.manufacturer + '. Модель: ' + this.model + '. Год: ' + this.year;
+    };
+    Car.prototype.getCountry = function () {
+        switch (this.manufacturer.toLowerCase()) {
+            case 'bmw':
+            case 'audi':
+                return 'Germany';
+            case 'toyota':
+                return 'Japan';
+        }
+    };
+    // @TODO: если конструктор вызывается без указания текущего года, то подставлять текущий
+    // @TODO: реализовать методы вывода информации о машине:
+    // console.log('Car: ' + bmw); // Car: BMW X5 2010
+    // console.log(bmw.getInfo()); // BMW X5 2010
+    // console.log(bmw.getDetailedInfo()); // Производитель: BMW. Модель: X5. Год: 2010
+
+    var bmw = new Car("BMW", "X5", 2010),
+            audi = new Car("Audi", "Q5", 2012),
+            toyota = new Car("Toyota", "Camry");
+
+
+    /**
+     * Создает экземпляр Автосалона
+     * @this {CarDealer}
+     * @param {string} name Название автосалона
+     */
+    function CarDealer(name) {
+        this.name = name;
+        this.cars = [];
+        this.price = [];
+    }
+
+    var yandex = new CarDealer('Яндекс.Авто');
+
+    // @TODO: реализовать метод добавления машин в автосалон. Предусмотреть возможность добавления одной машины,
+    //нескольких машин.
+    CarDealer.prototype.add = function () {
+        for (var key in arguments) {
+            if (arguments[key] instanceof Car) {
+                this.cars.push(arguments[key]);
+            }
+        }
+        return this;
+    };
+    yandex
+            .add(toyota)
+            .add(bmw, audi);
+
+    // @TODO: реализовать метод установки цены на машину
+    /**
+     * Установить цену на машину
+     * @param {string} car идентификатор машины
+     * @param {string} price стоимость
+     */
+// идентификатор машины составляется следующим образом "производитель модель год"
+// стоимость машины может быть задана в двух валютах: йена и евро.
+    CarDealer.prototype.setPrice = function (car, price) {
+        var exist = false;
+        for (var key in this.price) {
+            if (this.price[key].car == car) {
+                console.log('sss');
+                this.price[key].price = price;
+                exist = true;
+            }
+        }
+        if (!exist) {
+            this.price.push({car:car, price:price});
+        }
+        return this;
+    }
+    yandex
+            .setPrice('BMW X5 2010', '€2000')
+            .setPrice('Audi Q5 2012', '€3000')
+            .setPrice('Toyota Camry 2012', '¥3000');
+
+    // @TODO: реализовать вывод списка автомобилей в продаже, с фильтрацией по стране производителю,
+    //используя метод getCountry:
+
+    CarDealer.prototype.list = function () {
+        var result = [];
+        for (var key in this.cars) {
+            result.push(this.cars[key].getInfo());
+        }
+        return result.join(', ');
+    }
+    CarDealer.prototype.listRUB = function () {
+        var result = [];
+        for (var key in this.cars) {
+            for (var key2 in this.price) {
+                if (this.price[key2].car == this.cars[key].getInfo()) {
+                    if (this.price[key2].price.substr(0, 1) == 'Р') {
+                        result.push(this.cars[key].getInfo());
+                    }
+                }
+            }
+        }
+        return result.join(', ');
+    }
+
+    CarDealer.prototype.listPriceConvertRUB = function () {
+        var result = [];
+        for (var key in this.cars) {
+            for (var key2 in this.price) {
+                if (this.price[key2].car == this.cars[key].getInfo()) {
+                    var c;
+                    console.log(this.price[key2].price.charAt(0));
+                    switch (this.price[key2].price.charAt(0)) {
+                        case '€':
+                        {
+                            c = 'R' + parseInt(this.price[key2].price.substr(1, this.price[key2].price.length)) * 30;
+                            break;
+                        }
+                        case '¥':
+                        {
+                            c = 'R' + parseInt(this.price[key2].price.substr(1, this.price[key2].price.length)) * 40;
+                            break;
+                        }
+                        default:
+                        {
+                            c = this.price[key2].price;
+
+                        }
+                    }
+                    result.push(this.cars[key].manufacturer + ' ' + this.cars[key].model + ' ' + this.cars[key].year + ' ' + c);
+                }
+            }
+        }
+        return result.join(', ');
+    }
+
+    CarDealer.prototype.listByCountry = function (country) {
+        var result = [];
+        for (var key in this.cars) {
+            if (this.cars[key].getCountry().toLowerCase() == country.toLowerCase()) result.push(this.cars[key].getInfo());
+        }
+        return result.join(', ');
+    }
+
+
+    yandex.list(); //BMW X5 2010, Audi Q5 2012, Toyota Camry 2012
+    yandex.listByCountry('Germany'); //BMW X5 2010, Audi Q5 2012
+                   </pre>
+               </span>
+    </div>
+</div>
+<div class="query hideAnswerIcon">
+    <h3>Найдите все текстовые файлы (*.txt), в имени которых содержится «yandex», а в содержимом — «школа
+        фронтенд-разработки». (предполагается работа с командной строкой)</h3>
+
+    <div class="answer">
+               <span>
+                find . -name '*yandex*.txt' | xargs -I % grep -nH 'школа разработки интерфейсов' %
+               </span>
+    </div>
+</div>
+<div class="query hideAnswerIcon">
+    <h3>Дана программа, реализованная одновременно на Bash, Python и Perl. Программа принимает произвольное
+        количество аргументов и печатает их количество. Нужно добавить опцию -v для verbose-режима, в котором
+        дополнительно выводится значение каждого из аргументов.</h3>
+
+    <div class="answer">
+        <div class="tabs">
+            <table cellpadding="0" cellspacing="0">
+                <tr>
+                    <td class="between"></td>
+                    <td><img id="vv1_l" src="../image/active_left.gif"/></td>
+                    <td class="selected" onclick="vv_1()">
+                        <span>Bash</span>
+                    </td>
+                    <td><img id="vv1_r" src="../image/active_right.gif"/></td>
+                    <td class="between"></td>
+                    <td><img id="vv2_l" src="../image/inactive_left.gif"/></td>
+                    <td class="unselected" onclick="vv_2()">
+                        <span>Python</span>
+                    </td>
+                    <td style="margin-left:10px;"><img id="vv2_r" src="../image/inactive_right.gif"/></td>
+                    <td class="between"></td>
+                    <td><img id="vv3_l" src="../image/inactive_left.gif"/></td>
+                    <td class="unselected" onclick="vv_3()">
+                        <span>Perl</span>
+                    </td>
+                    <td style="margin-left:10px;"><img id="vv3_r" src="../image/inactive_right.gif"/></td>
+                </tr>
+            </table>
+            <div style="clear: both;"></div>
+        </div>
+        <div id="bash">
+            <pre>
+#!/usr/bin/env bash
+
+usage() {
+cat << EOF
+Usage: printargs.sh [OPTIONS] [ARGUMENTS]
+  Print the number of arguments.
+OPTIONS:
+  -h      print help message
+  -m MSG  custom message
+  -v ARGS print arguments and count
+Examples:
+  printargs.sh a b c
+  printargs.sh -m 'Arguments count: ' a b c
+  printargs.sh -h
+  printargs.sh -v a b c
+EOF
+}
+
+while getopts “hmv:” OPTION # TODO: add '-v' option for verbose mode
+do
+    case $OPTION in
+        h)
+            usage
+            exit 1
+            shift;;
+        m)
+            MESSAGE=$OPTARG
+            shift;shift;;
+        v)
+            VERBOSE=true
+            shift;;
+    esac
+done
+
+COUNT=0
+
+for ARG in $@; do
+    # TODO: add '-v' option for verbose mode
+    # and print each argument
+	if [ "$VERBOSE" ]; then
+	    echo $ARG
+	fi
+    let COUNT+=1
+done
+
+if [[ "$MESSAGE" != "" ]]; then
+    echo $MESSAGE
+fi
+
+echo $COUNT
+            </pre>
+        </div>
+        <div id="python">
+            <pre>
+#!/usr/bin/env python
+
+import argparse
+
+parser = argparse.ArgumentParser(description='Print the number of arguments.')
+parser.add_argument('arguments', metavar='ARG', type=str, nargs='*', help='some arguments')
+parser.add_argument('-m', dest='message', default='', help='custom message')
+# TODO: add '-v' option for verbose mode
+parser.add_argument('--verbose', '-v', action='store_true', help='verbose mode')
+
+args = parser.parse_args()
+
+count = 0
+
+for a in args.arguments:
+    # TODO: add '-v' option for verbose mode
+    # and print each argument
+	if args.verbose:
+		print(a)
+    count += 1
+
+if args.message != '':
+    print(args.message)
+
+print(count)
+            </pre>
+        </div>
+        <div id="perl">
+            <pre>
+#!/usr/bin/env perl
+
+use strict;
+use Getopt::Long;
+use Pod::Usage;
+my $help;
+my $message = '';
+@ARGV and GetOptions(
+    "h" => \$help,
+    "m:s" => \$message,
+    # TODO: add '-v' option for verbose mode
+) or pod2usage(1);
+pod2usage(-verbose => 2, -exitval => 2) if $help;
+my $count = 0;
+foreach(@ARGV) {
+    # TODO: add '-v' option for verbose mode
+    # and print each argument
+    $count++;
+}
+if($message ne "") {
+    print($message . "\n");
+}
+print($count . "\n");
+__END__
+
+=head1 NAME
+    printargs.pl - Print the number of arguments.
+
+=head1 SYNOPSIS
+    printargs.pl [options] [arguments]
+
+=head1 OPTIONS
+    -h      Show help message.
+    -m MSG  Specify a custom message.
+
+=head1 EXAMPLE
+    printargs.sh a b c
+    printargs.sh -m 'Arguments count: ' a b c
+    printargs.sh -h
+            </pre>
+        </div>
+    </div>
+</div>
+<div class="query hideAnswerIcon">
+    <h3>Расскажите, в каком объёме и при каких обстоятельствах вы изучали следующие темы: языки программирования
+        (императивные/декларативные, разные системы типов), структуры (классы, структуры данных, примитивные типы),
+        парадигмы (события, ООП, параллельность/асинхронность, кеширование), алгоритмы (парсинг, сортировка, поиск),
+        паттерны.</h3>
+
+    <div class="answer">
+                <span>
+                Все заявленные темы я изучал в университете по программе своей специальности.<br>
+                Во время обучения компании IBM и NetCracker проводили курсы по технологии Java.<br>
+                На этих курсах меня научили основам ООП, паттернам проектирования, стуктурам и алгоритмам данных.<br>
+                В ходе обучения мы выполняли практические задания, которые проходили code review у опытных кураторов.<br>
+                <br>
+                В данный момент большую часть знаний я получаю на специализированных интернет-ресурсах.<br>
+                Много опыта и навыков приобретаю в ходе дискуссий с коллегами по работе, в процессе работы в команде над различными проектами.
+               </span>
+    </div>
+</div>
+</div>
+</div>
+<div id="footer">
+    <span>&copy;&nbsp;Евгений Черных 2012&nbsp;&nbsp;&nbsp; </span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>
